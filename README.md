@@ -1,6 +1,6 @@
 # Propstream CyberSecurity Assessment Exercise
 
-Here is a bad site. Please detail all security issues you find and either provide a code fix or describe an infrastructure or architectural mitigation. To pass, you must find and address at least 50% of the issues in the code. 
+Here is a bad site. Please detail all security issues you find and either provide a code fix or describe an infrastructure or architectural mitigation. To pass, you must find and address at least 50% of the issues in this example.
 
 ## Let's Be Bad Guys: Exploiting and Mitigating the Top 10 Web App Vulnerabilities
 
