@@ -7,16 +7,10 @@ Here is a bad site. Please detail all security issues you find and either provid
 The Internet is a dangerous place, filled with evildoers out to attack your code
 for fun or profit, so it's not enough to just ship your awesome new web app--you
 have to take the security of your application, your users, and your data
-seriously.  You'll get into the mindset of the bad guys as we discuss, exploit,
-and mitigate the most common web app security flaws in a controlled environment.
+seriously. 
 
-We'll discuss each kind of the most prevalent security flaws at the theoretical
-level, then using a specially-crafted, deliberately vulnerable Django app,
-individuals or pairs will carry out exploits against these flaws, and we'll
-illustrate solutions to mitigate each kind of attack.
-
-This repository contains a deliberately-vulnerable website and exercises for
-learning about different kinds of attacks.
+Using a specially-crafted, deliberately vulnerable Django app,
+the canididate will find as many vulnerabilities as possible and either provide a code fix directly, or describe a mitigation using external infrastructure, architecture or tools. 
 
 We'll be using the [OWASP Top 10][top10] as our topic roadmap, addressing
 subjects such as:
