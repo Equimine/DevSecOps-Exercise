@@ -3,7 +3,7 @@
 Here is a bad site. Please detail all security issues you find by:
 
 1. Directly fixing the code and commiting it. OR
-2. Detailing an infrastructure or architectural mitigation to address the issue. OR
+2. Detailing an infrastructure or architectural mitigation to address the issue with a code comment. OR
 3. Simply identify the bad code by creating a comment directly above the affected line. - This is a cyber security test, not a coding test.
 
 Once you feel like the work is complete, be sure to commit and push any changes, then respond to the original email containing this assessment to inform Propstream of completion.
