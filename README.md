@@ -1,4 +1,8 @@
-# Shiny, Let's Be Bad Guys: Exploiting and Mitigating the Top 10 Web App Vulnerabilities
+# Propstream CyberSecurity Assessment Exercise
+
+Here is a bad site. Please detail all security issues you find and either provide a code fix or describe an infrastructure or architectural mitigation. To pass, you must find and address at least 50% of the issues in the code. 
+
+## Let's Be Bad Guys: Exploiting and Mitigating the Top 10 Web App Vulnerabilities
 
 The Internet is a dangerous place, filled with evildoers out to attack your code
 for fun or profit, so it's not enough to just ship your awesome new web app--you
