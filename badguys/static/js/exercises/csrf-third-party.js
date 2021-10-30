@@ -45,5 +45,5 @@ $(document).on('submit', 'form', function(e) {
     alert("Congrats! You did it!");
     return false;
 });
-
+/* this should be completed or removed so it's not sitting in the code */
 /* TODO: solution panel? */

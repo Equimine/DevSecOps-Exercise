@@ -1463,6 +1463,7 @@ form.custom .custom {
     color: #222222; }
 
 /* Custom Select Options and Dropdowns */
+/* empty ruleset */
 form.custom {
   /* Custom input, disabled */ }
   form.custom .custom.dropdown {
@@ -1481,6 +1482,7 @@ form.custom {
     -webkit-box-shadow: none;
     box-shadow: none;
     font-size: 0.875em;
+    /* the vertical-align property is ignored since display:block is coded above */
     vertical-align: top; }
     form.custom .custom.dropdown ul {
       overflow-y: auto;
@@ -3062,6 +3064,7 @@ kbd {
     border-style: solid;
     border-width: 1px;
     margin-bottom: 1.25em;
+    /*property for animation should be properly defined for compatibility across browsers */
     -webkit-animation: webkitSiblingBugfix infinite 1s;
     height: 36px;
     background: white;
@@ -3193,7 +3196,7 @@ kbd {
         border-radius: 999px; }
       .switch.round label {
         padding: 0 0.5625em; }
-
+  /*define standard rule for @keyframes when defining keyframes */
   @-webkit-keyframes webkitSiblingBugfix {
     from {
       position: relative; }

@@ -12,5 +12,8 @@ window.onload = function() {
     } else {
         result = 'This page has not yet been hacked.';
     }
+    /* possible XSS vulnerability if untrusted data is inserted. Replace .innerHTML with .innertext 
+    or .textContent. If .innerHTML absolutely needs to be used, then create function to sanitize the 
+    data first to prevent escaped characters from transforming back into unescaped markup*/
     document.getElementById("result").innerHTML = result;
 }
