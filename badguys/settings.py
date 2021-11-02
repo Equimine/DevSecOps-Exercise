@@ -87,6 +87,9 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
+# The use of hard coded passwords increases the possibility of password guessing.
+# It is better to salt and hash the password than to store it and to keep the passwords stored
+# in a different location, if possible.
 SECRET_KEY = 'h++jszpm)i@p%ay_b=cp#()^od!qns14)h%@qm3)p=cuo+st^a'
 
 # List of callables that know how to import templates from various sources.

